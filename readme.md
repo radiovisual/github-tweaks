@@ -2,10 +2,10 @@
 
 # GitHub Tweaks
 
-> Chrome extension that helps change some of GitHub's appearance and behaviors.
+> Chrome extension to help protect your eyes from GitHub's new blue url color.
 
-I was inspired to build this extension so that GitHub's new Blue url color would
-stop burning holes in my eyes, and setting my monitor on fire. :eyes: :fire: :desktop_computer: :fire:
+I was inspired to build this extension so that GitHub's new blue url color would
+**stop burning holes in my eyes**, and setting my monitor on fire. :eyes: :fire: :desktop_computer: :fire:
 
 In the options, you can choose the url color, and the hover color.
 
