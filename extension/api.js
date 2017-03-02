@@ -3,7 +3,7 @@
 
 	window.GitHubTweaks = (() => {
 		const defaults = {
-			urlColor: '#689bcd',
+			urlColor: '#7a7b7a',
 			urlHoverColor: 'inherit'
 		};
 
