@@ -1,0 +1,42 @@
+{
+	"name": "GitHub Tweaks",
+	"version": "1.0.0",
+	"description": "Force GitHub into submission.",
+	"homepage_url": "https://github.com/radiovisual/github-tweaks",
+	"manifest_version": 2,
+	"minimum_chrome_version": "51",
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": [
+		"https://github.com/",
+		"https://github.com/*",
+		"storage"
+	],
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"api.js"
+		]
+	},
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"https://github.com/",
+				"https://github.com/*"
+			],
+			"css": [
+				"content.css"
+			],
+			"js": [
+				"api.js",
+				"content.js"
+			]
+		}
+	]
+}
