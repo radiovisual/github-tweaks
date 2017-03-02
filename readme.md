@@ -18,6 +18,9 @@ In the options, you can choose the url color, and the hover color.
 Install [manually](http://superuser.com/a/247654/6877). Soon it will be available
 on the Chrome Web Store.
 
+## Contributions
+
+Pull Requests are welcome if you want to help close some issues or make improvements.
 
 ## License
 
