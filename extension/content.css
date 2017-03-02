@@ -3,6 +3,7 @@
  * inject into the GitHub pages.
  **/
 
-header a  {
+header a,
+select-menu a  {
 	color: inherit;
 }
