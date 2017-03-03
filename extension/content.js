@@ -20,12 +20,6 @@ function injectStyles() {
 		const css = `
 		a {
 			color: ${items.urlColor};
-		}
-
-		a:hover,
-		a:active,
-		a:focus {
-			color: ${items.urlHoverColor};
 		}`;
 
 		const style = getStyleElement(css);
