@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava"
   },
   "devDependencies": {
+    "ava": "^0.18.2",
     "xo": "*"
   },
   "xo": {
@@ -12,6 +13,7 @@
     ]
   },
   "dependencies": {
-    "github-injection": "^0.2.0"
+    "github-injection": "^0.2.0",
+    "html-colors": "0.0.2"
   }
 }
