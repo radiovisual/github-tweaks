@@ -32,3 +32,8 @@ input {
 	width: 244px;
 	height: 100%;
 }
+
+.inputError {
+	background-color: red !important;
+	color: white;
+}

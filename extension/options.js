@@ -1,25 +1,15 @@
 'use strict';
-const isHexColor = require('./validations').isHexColor;
-
 let urlColorInput;
-const $ = document.querySelector.bind(document);
 
 document.addEventListener('DOMContentLoaded', () => {
-	urlColorInput = $('#urlColor');
+	urlColorInput = document.querySelector('#urlColor');
 	urlColorInput.addEventListener('change', saveOptions);
-
 	restoreOptions();
 });
 
 function saveOptions() {
 	const urlColor = urlColorInput.value;
-
-	if (isHexColor(urlColor)) {
-		window.GitHubTweaks.storage.set({urlColor});
-	} else {
-		// report the error to the screen
-		console.error('stop');
-	}
+	window.GitHubTweaks.storage.set({urlColor});
 }
 
 function restoreOptions() {
@@ -27,7 +17,6 @@ function restoreOptions() {
 		if (err) {
 			throw err;
 		}
-
 		urlColorInput.value = items.urlColor;
 	});
 }
