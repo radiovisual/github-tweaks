@@ -18,14 +18,13 @@ function injectStyles() {
 		}
 
 		const css = `
-		div[role=main] a:link,
-		div[role=main] a:visited {
+		a {
 			color: ${items.urlColor};
 		}
 
-		div[role=main] a:hover,
-		div[role=main] a:active,
-		div[role=main] a:focus {
+		a:hover,
+		a:active,
+		a:focus {
 			color: ${items.urlHoverColor};
 		}`;
 
