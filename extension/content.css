@@ -2,8 +2,3 @@
  * Add styles that you want to
  * inject into the GitHub pages.
  **/
-
-header a,
-select-menu a  {
-	color: inherit;
-}
